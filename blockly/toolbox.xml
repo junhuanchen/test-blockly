@@ -16,7 +16,7 @@
   <block type="itpk_ask">
   <value name="question">
     <block type="text">
-      <field name="TEXT">ip</field>
+      <field name="TEXT">查 IP </field>
     </block>
   </value>
 	<statement name="callback">
