@@ -30,7 +30,7 @@
   <block type="itpk_ask_ip">
     <statement name="callback">
       <block type="console">
-        <value name="TEXT">
+        <value name="console">
           <block type="itpk_answer"></block>
         </value>
       </block>
