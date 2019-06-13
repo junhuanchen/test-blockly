@@ -35,3 +35,17 @@ Blockly.Blocks['itpk_ask'] = {
  this.setHelpUrl("");
   }
 };
+
+Blockly.Blocks['itpk_ask_ip'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("问 茉莉 查本机网络 IP ");
+    this.appendStatementInput("callback")
+        .setCheck(null);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(160);
+ this.setTooltip("");
+ this.setHelpUrl("");
+  }
+};

@@ -19,3 +19,10 @@ Blockly.JavaScript['itpk_ask'] = function(block) {
   var code = '{0};\n'.format(itpk_quick_ask(value_question, statements_callback));
   return code;
 };
+
+Blockly.JavaScript['itpk_ask_ip'] = function(block) {
+  var statements_callback = Blockly.JavaScript.statementToCode(block, 'callback');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
