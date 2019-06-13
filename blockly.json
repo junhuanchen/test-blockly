@@ -1,5 +1,6 @@
 {
   "types": [
+    "itpk_ask_ip",
     "itpk_ask",
     "itpk_answer",
     "itpk_clear"
