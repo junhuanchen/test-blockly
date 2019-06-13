@@ -27,4 +27,13 @@
 	</block>
 	</statement>
   </block>
+  <block type="itpk_ask_ip">
+    <statement name="callback">
+      <block type="console">
+        <value name="TEXT">
+          <block type="itpk_answer"></block>
+        </value>
+      </block>
+    </statement>
+  </block>
 </category>
