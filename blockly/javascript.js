@@ -23,6 +23,6 @@ Blockly.JavaScript['itpk_ask'] = function(block) {
 Blockly.JavaScript['itpk_ask_ip'] = function(block) {
   var statements_callback = Blockly.JavaScript.statementToCode(block, 'callback');
   // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
+  var code = 'console.log("hello");\n';
   return code;
 };
